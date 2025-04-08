@@ -295,3 +295,14 @@
 2025-04-08T21:53:22.656+0000 I NETWORK  [conn51] received client metadata from 127.0.0.1:56926 conn51: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
 2025-04-08T21:53:22.656+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56930 #52 (2 connections now open)
 2025-04-08T21:53:22.657+0000 I NETWORK  [conn52] received client metadata from 127.0.0.1:56930 conn52: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-08T21:58:58.008+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:33378 #53 (3 connections now open)
+2025-04-08T21:58:58.008+0000 I NETWORK  [conn53] received client metadata from 127.0.0.1:33378 conn53: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T21:58:58.011+0000 I STORAGE  [conn53] createCollection: octofit_db.users with generated UUID: 1bc2d556-eaa1-44e1-88c1-7a274d17c05f
+2025-04-08T21:58:58.019+0000 I STORAGE  [conn53] createCollection: octofit_db.teams with generated UUID: 5e66a2d6-149d-41aa-a2ad-0480bdcb3564
+2025-04-08T21:58:58.026+0000 I STORAGE  [conn53] createCollection: octofit_db.activity with generated UUID: f532f368-daa6-4842-947b-acc4a6dbb0e7
+2025-04-08T21:58:58.035+0000 I STORAGE  [conn53] createCollection: octofit_db.leaderboard with generated UUID: 7783cdbc-7da2-4186-a2d2-2a41b534cc9d
+2025-04-08T21:58:58.042+0000 I STORAGE  [conn53] createCollection: octofit_db.workouts with generated UUID: 1793d5c6-24c1-4763-a14c-6cd6f61c6dea
+2025-04-08T21:58:58.053+0000 I INDEX    [conn53] build index on: octofit_db.users properties: { v: 2, unique: true, key: { email: 1.0 }, name: "email_1", ns: "octofit_db.users" }
+2025-04-08T21:58:58.053+0000 I INDEX    [conn53] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-08T21:58:58.054+0000 I INDEX    [conn53] build index done.  scanned 0 total records. 0 secs
+2025-04-08T21:58:58.057+0000 I NETWORK  [conn53] end connection 127.0.0.1:33378 (2 connections now open)
